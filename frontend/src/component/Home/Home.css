@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Federant&family=Montserrat:wght@300&family=Noto+Serif+NP+Hmong:wght@500&family=Quicksand&family=Rubik+Vinyl&display=swap");
+
+.banner {
+  width: 98vw;
+  object-fit: contain;
+  position: relative;
+  top: 80px;
+  box-shadow: rgba(250, 157, 157, 0.1) 0px 1px 1px 0px inset,
+    rgba(91, 34, 34, 0.25) 0px 50px 100px -20px,
+    rgba(62, 2, 2, 0.3) 0px 30px 60px -30px;
+}
+
+.banner > img {
+  display: block;
+  margin: 0 8px;
+  height: 100%;
+  width: 100%;
+}
+
+.homeHeading {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 50px auto 2px auto;
+  color: #843d01;
+  font-family: "Abhaya Libre", serif;
+  /* text-shadow: 1px 1px 2px rgb(65, 21, 1); */
+  position: relative;
+  margin-top: 150px;
+}
+
+.chooseHeading {
+  font-size: 2.8rem;
+  text-align: center;
+  color: rgb(49, 46, 46);
+  font-family: "Abhaya Libre", serif;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  margin: 2vmax auto;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.productCard {
+  width: 20vmax;
+  height: 30vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 2vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+  border: 1px solid #cfd8e4;
+  border-radius: 20px;
+  box-shadow: rgba(201, 166, 180, 0.2) 0px 8px 24px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.imageInCard {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(176, 188, 143, 0.35) 0px -50px 36px -28px inset;
+}
+
+.imageInCard > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reviewAndStars {
+  height: 30%;
+  width: 100%;
+  padding: 10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1px 0 3px 0;
+}
+
+.MuiRating-root {
+  margin: 3px 0 3px 0;
+}
+
+.productCardSpan {
+  margin: 0 auto 0 3px;
+  font-size: 0.8rem;
+  color: #187395;
+}
+
+.rupeeSymbol {
+  margin: 3px 0 3px 0;
+  font-size: 0.8rem;
+  color: #843d01;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.productPrice {
+  margin: 3px 0 1px 0;
+  font-size: 1.3rem;
+  color: #843d01;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.productCard:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+
+  transform: translateY(-1vmax);
+}
+
+@media screen and (max-width: 850px) {
+  .productName {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0 0 1px 0;
+  }
+
+  .banner > img {
+    display: block;
+    margin: 0 2px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .productCardSpan {
+    margin: 0 auto 0 1px;
+    font: 300 1vmax "Roboto";
+    color: #187395;
+  }
+
+  .rupeeSymbol {
+    margin: 1px 0 1px 0;
+    font-size: 0.5rem;
+    color: #843d01;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .productPrice {
+    margin: 1px 0 1px 2px;
+    font-size: 1.1rem;
+    color: #843d01;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .homeHeading {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 50px auto 2px auto;
+    color: #843d01;
+    font-family: "Abhaya Libre", serif;
+    position: relative;
+    margin-top: 115px;
+  }
+
+  .chooseHeading {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(49, 46, 46);
+    font-family: "Abhaya Libre", serif;
+    position: relative;
+  }
+
+  .imageInCard {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(176, 188, 143, 0.35) 0px -50px 36px -28px inset;
+  }
+}
