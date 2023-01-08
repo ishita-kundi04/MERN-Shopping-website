@@ -27,8 +27,8 @@ cloudinary.config({
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server is working on https://localhost:${process.env.PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server is working on https://localhost:${PORT}`);
 });
 
 // Unhandled Promise Rejection
