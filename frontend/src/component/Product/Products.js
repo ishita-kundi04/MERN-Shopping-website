@@ -33,7 +33,7 @@ const Products = () => {
   const dispatch = useDispatch();
   const alert = useAlert();
 
-  const [price, setPrice] = useState([10, 80000]);
+  const [price, setPrice] = useState([10, 50000]);
   const [category, setCategory] = useState("");
 
   const [ratings, setRatings] = useState(0);
