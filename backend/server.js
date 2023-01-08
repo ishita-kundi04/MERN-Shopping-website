@@ -10,7 +10,7 @@ process.on("UncaughtException", (err) => {
   process.exit(1);
 });
 
-// const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 // Config
 if (process.env.NODE_ENV !== "PRODUCTION") {
