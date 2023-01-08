@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b8159bd.css",
+    "main.js": "/static/js/main.9e317412.js",
+    "static/media/Always IN style center.png": "/static/media/Always IN style center.7b41e2f4c3b8a76c90c7.png",
+    "static/media/dribbble_1.gif": "/static/media/dribbble_1.181c5a6430bcb77324b1.gif",
+    "static/media/logo.jpg": "/static/media/logo.6fd1bfdc36fe410e63de.jpg",
+    "static/media/Profile.png": "/static/media/Profile.697fdcd21f6d157b9073.png",
+    "static/media/playstore.png": "/static/media/playstore.82b4831979e0ce7c733e.png",
+    "static/media/Appstore.png": "/static/media/Appstore.d0c5839937e3c36285f6.png",
+    "index.html": "/index.html",
+    "main.4b8159bd.css.map": "/static/css/main.4b8159bd.css.map",
+    "main.9e317412.js.map": "/static/js/main.9e317412.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b8159bd.css",
+    "static/js/main.9e317412.js"
+  ]
+}
