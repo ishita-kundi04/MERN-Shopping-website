@@ -2,6 +2,11 @@
 
 Hi! My name is **Ishita**, I have created this MERN stack e-commerce website taking refrence from Youtube channel "6 Pack Programmer".
 
+Here's a 3 min video demo-
+
+https://user-images.githubusercontent.com/95162790/213125701-03a9404d-a8a9-4b3c-8cab-440f9589c3b1.mp4
+
+
 # Technologies Used -
 
 1. ReactJS
@@ -21,25 +26,40 @@ Make Sure to Create a config.env file in backend/config directory and add approp
 
 **Essential Variables**
 PORT=
+
 DB_URI =
+
 STRIPE_API_KEY=
+
 STRIPE_SECRET_KEY=
+
 JWT_SECRET=
+
 JWT_EXPIRE=
+
 COOKIE_EXPIRE=
+
 SMPT_SERVICE =
+
 SMPT_MAIL=
+
 SMPT_PASSWORD=
+
 SMPT_HOST=
+
 SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
+
+CLOUDINARY_NAME=
+
+CLOUDINARY_API_KEY=
+
+CLOUDINARY_API_SECRET=
+
 \_fill each filed with your info respectively\*
 
-## Author
+## Author @ishita-kundi04
 
-Connect with me -
+Connect with me - 
 
 **Instagram** Click [Here](https://www.instagram.com/ishita.kundi) **@Ishita**
 **LinkedIn** Click [Here](https://www.linkedin.com/in/ishita-kundi-b648141b6/) **@Ishita**
