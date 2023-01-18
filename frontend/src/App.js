@@ -62,6 +62,17 @@ const App = () => {
     <BrowserRouter>
       <Header />
       {isAuthenticated && <UserOptions user={user} />}
+      {stripeApiKey && (
+            <Route
+              exact
+              path="/process/payment"
+              element={
+                <Elements stripe={loadStripe(stripeApiKey)}>
+                  <Payment />
+                </Elements>
+              }
+            />
+         )}
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
@@ -83,18 +94,6 @@ const App = () => {
           <Route path="/password/update" element={<UpdatePassword />} />
           <Route path="/shipping" element={<Shipping />} />
           <Route path="/order/confirm" element={<ConfirmOrder />} />
-
-          {stripeApiKey && (
-            <Route
-              exact
-              path="/process/payment"
-              element={
-                <Elements stripe={loadStripe(stripeApiKey)}>
-                  <Payment />
-                </Elements>
-              }
-            />
-          )}
 
           <Route
             isAdmin={true}
