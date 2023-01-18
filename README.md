@@ -1,11 +1,17 @@
 # MERN E-COMMERCE WEBSITE (Shoppy)
 
-Hi! My name is **Ishita**, I have created this MERN stack e-commerce website taking refrence from Youtube channel "6 Pack Programmer".
+Hi! My name is **Ishita**, I have created this MERN stack e-commerce website taking refrence from Youtube channel "6 Pack Programmer" of @meabhisingh.
 
 Here's a 3 min video demo-
 
 https://user-images.githubusercontent.com/95162790/213125701-03a9404d-a8a9-4b3c-8cab-440f9589c3b1.mp4
 
+
+"Shoppy" is a shopping website , having a different dashboard for Admin to track, process and modify all products, users, orders and product reviews.
+A user is provided with all profile features like editing profile , changing password, even a user can get a forgot password mail for password change.
+All products can be filtered according to price , categories and rating. 
+User can add reviews for different products and store in cart for future uses.
+Rest , you can have a look at the video demo of my website 😁
 
 # Technologies Used -
 
@@ -13,6 +19,12 @@ https://user-images.githubusercontent.com/95162790/213125701-03a9404d-a8a9-4b3c-
 2. NodeJS
 3. Express
 4. MongoDB
+5. Redux
+6. Axios
+7. Bcrypt 
+8. Cloudinary
+9. JWT (Json Web Token)
+10. Stripe payment
 
 # Install Dependencies
 
@@ -61,6 +73,8 @@ CLOUDINARY_API_SECRET=
 
 Connect with me - 
 
-**Instagram** Click [Here](https://www.instagram.com/ishita.kundi) **@Ishita**
+**Instagram** : Click [Here](https://www.instagram.com/ishita.kundi) **@Ishita**
 
-**LinkedIn** Click [Here](https://www.linkedin.com/in/ishita-kundi-b648141b6/) **@Ishita**
+**LinkedIn** : Click [Here](https://www.linkedin.com/in/ishita-kundi-b648141b6/) **@Ishita**
+
+## Thank You for coming 👻
